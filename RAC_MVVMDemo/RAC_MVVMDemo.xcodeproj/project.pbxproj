@@ -17,7 +17,15 @@
 		828520DA20E32A7F008EF8B9 /* RAC_MVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 828520D920E32A7F008EF8B9 /* RAC_MVVMDemoUITests.m */; };
 		828520EA20E335FB008EF8B9 /* MVVMHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 828520E920E335FB008EF8B9 /* MVVMHttpTool.m */; };
 		828520F820E33EB2008EF8B9 /* MVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 828520F720E33EB2008EF8B9 /* MVModel.m */; };
-		828520FB20E33ECB008EF8B9 /* MVVMBassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828520FA20E33ECB008EF8B9 /* MVVMBassViewController.m */; };
+		8285210320E37D78008EF8B9 /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285210220E37D78008EF8B9 /* BannerModel.m */; };
+		8285210620E37DA8008EF8B9 /* CityTravelItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285210520E37DA8008EF8B9 /* CityTravelItemModel.m */; };
+		8285210920E37E9A008EF8B9 /* HTCityTravelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285210820E37E9A008EF8B9 /* HTCityTravelCell.m */; };
+		8285210C20E37EC0008EF8B9 /* HTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285210B20E37EC0008EF8B9 /* HTTextField.m */; };
+		8285210F20E38379008EF8B9 /* CityTravelViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285210E20E38379008EF8B9 /* CityTravelViewModel.m */; };
+		8285211220E38465008EF8B9 /* CityTravelDetialViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285211120E38465008EF8B9 /* CityTravelDetialViewModel.m */; };
+		8285211520E38546008EF8B9 /* HLBassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285211420E38546008EF8B9 /* HLBassViewController.m */; };
+		8285211820E38573008EF8B9 /* CityTranveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285211720E38573008EF8B9 /* CityTranveViewController.m */; };
+		8285211B20E386F9008EF8B9 /* HTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285211A20E386F9008EF8B9 /* HTTableView.m */; };
 		87056349225A2239DF3CDA82 /* libPods-RAC_MVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BA5294F3EB75C939E6C5BA /* libPods-RAC_MVVMDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +69,24 @@
 		828520E920E335FB008EF8B9 /* MVVMHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMHttpTool.m; sourceTree = "<group>"; };
 		828520F620E33EB2008EF8B9 /* MVModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVModel.h; sourceTree = "<group>"; };
 		828520F720E33EB2008EF8B9 /* MVModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVModel.m; sourceTree = "<group>"; };
-		828520F920E33ECB008EF8B9 /* MVVMBassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMBassViewController.h; sourceTree = "<group>"; };
-		828520FA20E33ECB008EF8B9 /* MVVMBassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMBassViewController.m; sourceTree = "<group>"; };
+		8285210120E37D78008EF8B9 /* BannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BannerModel.h; path = ../../../../../../../../Documents/BannerModel.h; sourceTree = "<group>"; };
+		8285210220E37D78008EF8B9 /* BannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BannerModel.m; path = ../../../../../../../../Documents/BannerModel.m; sourceTree = "<group>"; };
+		8285210420E37DA8008EF8B9 /* CityTravelItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CityTravelItemModel.h; path = ../../../../../../../../Documents/CityTravelItemModel.h; sourceTree = "<group>"; };
+		8285210520E37DA8008EF8B9 /* CityTravelItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CityTravelItemModel.m; path = ../../../../../../../../Documents/CityTravelItemModel.m; sourceTree = "<group>"; };
+		8285210720E37E9A008EF8B9 /* HTCityTravelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HTCityTravelCell.h; path = ../../../../../../../../Documents/HTCityTravelCell.h; sourceTree = "<group>"; };
+		8285210820E37E9A008EF8B9 /* HTCityTravelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HTCityTravelCell.m; path = ../../../../../../../../Documents/HTCityTravelCell.m; sourceTree = "<group>"; };
+		8285210A20E37EC0008EF8B9 /* HTTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HTTextField.h; path = ../../../../../../../../Documents/HTTextField.h; sourceTree = "<group>"; };
+		8285210B20E37EC0008EF8B9 /* HTTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HTTextField.m; path = ../../../../../../../../Documents/HTTextField.m; sourceTree = "<group>"; };
+		8285210D20E38379008EF8B9 /* CityTravelViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CityTravelViewModel.h; path = ../../../../../../../../Documents/CityTravelViewModel.h; sourceTree = "<group>"; };
+		8285210E20E38379008EF8B9 /* CityTravelViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CityTravelViewModel.m; path = ../../../../../../../../Documents/CityTravelViewModel.m; sourceTree = "<group>"; };
+		8285211020E38465008EF8B9 /* CityTravelDetialViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CityTravelDetialViewModel.h; path = ../../../../../../../../Documents/CityTravelDetialViewModel.h; sourceTree = "<group>"; };
+		8285211120E38465008EF8B9 /* CityTravelDetialViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CityTravelDetialViewModel.m; path = ../../../../../../../../Documents/CityTravelDetialViewModel.m; sourceTree = "<group>"; };
+		8285211320E38546008EF8B9 /* HLBassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HLBassViewController.h; path = ../../../../../../../../Documents/HLBassViewController.h; sourceTree = "<group>"; };
+		8285211420E38546008EF8B9 /* HLBassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HLBassViewController.m; path = ../../../../../../../../Documents/HLBassViewController.m; sourceTree = "<group>"; };
+		8285211620E38573008EF8B9 /* CityTranveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CityTranveViewController.h; path = ../../../../../../../../Documents/CityTranveViewController.h; sourceTree = "<group>"; };
+		8285211720E38573008EF8B9 /* CityTranveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CityTranveViewController.m; path = ../../../../../../../../Documents/CityTranveViewController.m; sourceTree = "<group>"; };
+		8285211920E386F9008EF8B9 /* HTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTableView.h; sourceTree = "<group>"; };
+		8285211A20E386F9008EF8B9 /* HTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTableView.m; sourceTree = "<group>"; };
 		8A45B7C91403B3A77E2A8DD4 /* Pods-RAC_MVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_MVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_MVVMDemo/Pods-RAC_MVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F3BA5294F3EB75C939E6C5BA /* libPods-RAC_MVVMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC_MVVMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,8 +192,6 @@
 			children = (
 				828520F620E33EB2008EF8B9 /* MVModel.h */,
 				828520F720E33EB2008EF8B9 /* MVModel.m */,
-				828520F920E33ECB008EF8B9 /* MVVMBassViewController.h */,
-				828520FA20E33ECB008EF8B9 /* MVVMBassViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -199,6 +221,10 @@
 		828520EE20E33E3E008EF8B9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8285210D20E38379008EF8B9 /* CityTravelViewModel.h */,
+				8285210E20E38379008EF8B9 /* CityTravelViewModel.m */,
+				8285211020E38465008EF8B9 /* CityTravelDetialViewModel.h */,
+				8285211120E38465008EF8B9 /* CityTravelDetialViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -206,6 +232,12 @@
 		828520EF20E33E55008EF8B9 /* control */ = {
 			isa = PBXGroup;
 			children = (
+				8285211920E386F9008EF8B9 /* HTTableView.h */,
+				8285211A20E386F9008EF8B9 /* HTTableView.m */,
+				8285211320E38546008EF8B9 /* HLBassViewController.h */,
+				8285211420E38546008EF8B9 /* HLBassViewController.m */,
+				8285211620E38573008EF8B9 /* CityTranveViewController.h */,
+				8285211720E38573008EF8B9 /* CityTranveViewController.m */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -213,6 +245,10 @@
 		828520F020E33E6C008EF8B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8285210720E37E9A008EF8B9 /* HTCityTravelCell.h */,
+				8285210820E37E9A008EF8B9 /* HTCityTravelCell.m */,
+				8285210A20E37EC0008EF8B9 /* HTTextField.h */,
+				8285210B20E37EC0008EF8B9 /* HTTextField.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +256,10 @@
 		828520F120E33E7D008EF8B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8285210120E37D78008EF8B9 /* BannerModel.h */,
+				8285210220E37D78008EF8B9 /* BannerModel.m */,
+				8285210420E37DA8008EF8B9 /* CityTravelItemModel.h */,
+				8285210520E37DA8008EF8B9 /* CityTravelItemModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -436,10 +476,18 @@
 			files = (
 				828520BA20E32A76008EF8B9 /* ViewController.m in Sources */,
 				828520EA20E335FB008EF8B9 /* MVVMHttpTool.m in Sources */,
+				8285210920E37E9A008EF8B9 /* HTCityTravelCell.m in Sources */,
+				8285211B20E386F9008EF8B9 /* HTTableView.m in Sources */,
 				828520F820E33EB2008EF8B9 /* MVModel.m in Sources */,
+				8285210C20E37EC0008EF8B9 /* HTTextField.m in Sources */,
+				8285211820E38573008EF8B9 /* CityTranveViewController.m in Sources */,
 				828520C520E32A7F008EF8B9 /* main.m in Sources */,
 				828520B720E32A76008EF8B9 /* AppDelegate.m in Sources */,
-				828520FB20E33ECB008EF8B9 /* MVVMBassViewController.m in Sources */,
+				8285211220E38465008EF8B9 /* CityTravelDetialViewModel.m in Sources */,
+				8285210F20E38379008EF8B9 /* CityTravelViewModel.m in Sources */,
+				8285211520E38546008EF8B9 /* HLBassViewController.m in Sources */,
+				8285210620E37DA8008EF8B9 /* CityTravelItemModel.m in Sources */,
+				8285210320E37D78008EF8B9 /* BannerModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
